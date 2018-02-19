@@ -25,7 +25,7 @@ public class Testtt {
 
         HashMap<String, Integer> Contacts = new HashMap<>();
 
-        for (int k = 1; k < 10; k++){
+        for (int k = 0; k < 10; k++){
 
             Contacts.put("Adam"+k , (k + 100));
             System.out.print("Adam" + k + " = " + (k+100) + ",  ");
