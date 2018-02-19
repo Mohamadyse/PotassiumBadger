@@ -9,7 +9,7 @@ public class TheFirst
     System.out.println("Enter any number to check if it is a prime number");
     sc=new Scanner(System.in);
 
-    isPrime(sc.nextInt());
+    isPrime(2*sc.nextInt());
     }
     public static void isPrime(int n) {
         int i=2;
