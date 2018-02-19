@@ -27,7 +27,7 @@ public class Testtt {
 
         for (int k = 1; k < 10; k++){
 
-            Contacts.put("Adam"+k , (k + 100));
+            Contacts.add("Adam"+k , (k + 100));
             System.out.print("Adam" + k + " = " + (k+100) + ",  ");
 
         }
