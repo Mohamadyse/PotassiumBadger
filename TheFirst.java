@@ -28,5 +28,6 @@ public class TheFirst
 
     public static void main(String[] args) {
        TheFirst f=new TheFirst();
+       System.out.println(" The end");
     }
     }
